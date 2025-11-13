@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oppong Mathew | TheCyberDev Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <a href="#hero" class="logo">Oppong Mathew</a>
+      <nav id="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menu-toggle">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" style="background-image: url('background.jpg')">
+    <div class="hero-content">
+      <h1>Oppong Mathew</h1>
+      <p class="tagline">Cybersecurity Student at AAMUSTED & Front-End Developer passionate about building secure and modern web experiences</p>
+      <p>aka <span>TheCyberDev</span></p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I study Cybersecurity at AAMUSTED (Kumasi, Tanoso campus) and I'm a level 200 student. I also attend a mentorship program for front-end development, learning HTML, CSS, JavaScript.</p>
+      <div class="about-images">
+        <img src="businesse.jpg" alt="Oppong Mathew in suit">
+        <img src="asante.jpg" alt="Oppong Mathew in kente">
+        <img src="campus.jpg" alt="Oppong Mathew at campus">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="html.webp" alt="HTML"><span>HTML</span></div>
+        <div class="skill-card"><img src="css.webp" alt="CSS"><span>CSS</span></div>
+        <div class="skill-card"><img src="js.webp" alt="JavaScript"><span>JavaScript</span></div>
+        <div class="skill-card"><img src="tailwind.webp" alt="Tailwind"><span>Tailwind</span></div>
+      </div>
+      <h3>Cybersecurity</h3>
+      <p>Network security, secure coding practices, web security awareness.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="vegetables.jpg" alt="Grocery Market">
+          <h3>Grocery Market Website</h3>
+          <p>Responsive e-commerce style front-end built with HTML, CSS, and JavaScript.</p>
+          <a href="https://oppongmathew.github.io/grocery-store-website/" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <div class="container">
+      <h2>Achievements</h2>
+      <img src="quizze.jpg" alt="Quiz achievement">
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies">
+    <div class="container hobbies-section">
+      <img src="trombone.jpg" alt="Trombone">
+      <p>I play the trombone and enjoy music alongside building on the web.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-logos">
+        <a href="mailto:oppongmathew2525@gmail.com" target="_blank" title="Email">
+          <img src="gmail.webp" alt="Email">
+        </a>
+        <a href="https://wa.me/233538507594" target="_blank" title="WhatsApp">
+          <img src="whatsapp.webp" alt="WhatsApp">
+        </a>
+        <a href="https://github.com/oppongmathew" target="_blank" title="GitHub">
+          <img src="github.webp" alt="GitHub">
+        </a>
+        <a href="https://tiktok.com/@rhatty175" target="_blank" title="TikTok">
+          <img src="tiktok.webp" alt="TikTok">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Oppong Mathew — Built with ❤️
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
